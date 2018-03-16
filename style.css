@@ -1,0 +1,38 @@
+@charset 'utf-8';
+
+header, .cards {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.card {
+	width: 200px;
+	display: inline-flex;
+	margin: 30px;
+}
+
+a, a:hover {
+	color: black;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.f-column {
+	flex-direction: column;
+}
+
+.f-row {
+	flex-direction: row;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.card img {
+	height: 200px;
+}
