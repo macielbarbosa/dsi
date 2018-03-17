@@ -435,6 +435,8 @@ p.w3ls_head_para {
     letter-spacing: 7px;
 }
 .w3l-grids-about {
+	display: flex;
+	align-items: center;
     margin-top: 3em;
 }
 .w3ls-agile-left-info a {
@@ -1128,7 +1130,6 @@ p.counter {
 		font-size: 13px;
 	}
 	.agile-about-right-img img {
-		width: 55%;
 		margin-bottom: 1em;
 	}
 	.list-gds {
@@ -1188,7 +1189,10 @@ p.counter {
 	.navbar-brand {
     line-height: 35px;
     font-size: 1.1em;
-}
+	}
+	.w3l-grids-about {
+		flex-direction: column;
+	}
 }
 @media (max-width: 800px){
 	#home {
