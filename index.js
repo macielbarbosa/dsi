@@ -6,7 +6,7 @@ Vue.component('card', {
 	},
 	template: `	
 		<div class="card">
-			<a :href="dados.href">
+			<a :href="dados.href" target="_blank">
 			  <img class="card-img-top" :src="dados.img" :alt="dados.descricao">
 			  <div class="card-body">
 			    <h5 class="card-title">{{dados.nome}}</h5>
