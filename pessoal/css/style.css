@@ -1646,3 +1646,15 @@ p.counter {
 #education {
   background-color: #f3f2f2
 }
+
+.row > * {
+	margin-top: 10px
+}
+
+.experiencias > :not(:first-child) {
+	border-top: 1px solid #ddd
+}
+
+.experiencias > * {
+	padding: 10px 0;
+}
